@@ -16,3 +16,5 @@ Following parts are used
 |Memory|SD Memory Card|
 
 ESP32WiFiCAM is implemented in MicroPython
+
+All files are subject to MIT license.
