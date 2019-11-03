@@ -8,8 +8,11 @@ ESP32 WiFi Camera application has the following functions.
 
 Following parts are used
 
-1. MicroController...ESP32
-1. CMOS Camera Sensor...Grove Serial Camera Kit
-1. TFT ...
-1. SD Memory Card
+|device|spec|
+----|---- 
+|MicroController|ESP32|
+|Camera Unit|Grove Serial Camera Kit|
+|Monitor|1.8inch TFT LCD(ST7735)|
+|Memory|SD Memory Card|
 
+ESP32WiFiCAM is implemented in MicroPython
