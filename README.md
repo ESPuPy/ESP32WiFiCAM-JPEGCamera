@@ -1,2 +1,2 @@
 # ESP32WiFiCAM-JPEGCamera
-ESP32  WiFi Camera application  with  Grove camera
+ESP32  WiFi Camera application  with  Grove serial camera
