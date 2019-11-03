@@ -8,7 +8,7 @@ ESP32 WiFi Camera application has the following functions.
 
 Following parts are used
 
-|device|spec|
+|parts type|parts name|
 ----|---- 
 |MicroController|ESP32|
 |Camera Unit|Grove Serial Camera Kit|
