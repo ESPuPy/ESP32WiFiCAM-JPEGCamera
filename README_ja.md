@@ -1,8 +1,10 @@
 # ESP32WiFiCAM-JPEGCamera
 
+外観<br><img src="fig/fig1.jpg" width=200>
+
 ESP32 WiFi Camera は以下の機能があります。
 
-1. VGAサイズのJPEG画像を撮影 
+1. VGAサイズのJPEG画像を撮影
 1. 撮影した画像データをSDカードメモリに保存
 1. 撮影した画像データをクラウドアルバムサービス（Cloudinary Album Service）にアップロード
 1. 撮影したことをLINE BOT APIを用いて通知、画像参照URLと共に送付することで、LINEアプリで画像確認可能
@@ -10,7 +12,7 @@ ESP32 WiFi Camera は以下の機能があります。
 本カメラでは以下のパーツを使っています。
 
 |parts type|parts name|
-----|---- 
+----|----
 |MicroController|ESP32|
 |Camera Unit|Grove Serial Camera Kit|
 |Monitor|1.8inch TFT LCD(ST7735)|

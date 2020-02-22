@@ -1,7 +1,8 @@
 # ESP32WiFiCAM-JPEGCamera
+figure <br><img src="fig/fig1.jpg" width=200>
 ESP32 WiFi Camera application has the following functions.
 
-1. take pictures in VGA size and JPEG format 
+1. take pictures in VGA size and JPEG format
 1. save pictures to the SD Memory card
 1. upload pictures to the Cloudinary Album Service that is a cloud service
 1. notify users using LINE BOT API
@@ -9,7 +10,7 @@ ESP32 WiFi Camera application has the following functions.
 Following parts are used
 
 |parts type|parts name|
-----|---- 
+----|----
 |MicroController|ESP32|
 |Camera Unit|Grove Serial Camera Kit|
 |Monitor|1.8inch TFT LCD(ST7735)|
