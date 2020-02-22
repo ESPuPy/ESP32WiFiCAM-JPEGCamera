@@ -1,0 +1,27 @@
+# ESP32WiFiCAM-JPEGCamera
+
+ESP32 WiFi Camera は以下の機能があります。
+
+1. VGAサイズのJPEG画像を撮影 
+1. 撮影した画像データをSDカードメモリに保存
+1. 撮影した画像データをクラウドアルバムサービス（Cloudinary Album Service）にアップロード
+1. 撮影したことをLINE BOT APIを用いて通知、画像参照URLと共に送付することで、LINEアプリで画像確認可能
+
+本カメラでは以下のパーツを使っています。
+
+|parts type|parts name|
+----|---- 
+|MicroController|ESP32|
+|Camera Unit|Grove Serial Camera Kit|
+|Monitor|1.8inch TFT LCD(ST7735)|
+|Memory|SD Memory Card|
+
+ESP32WiFiCAMはESP32上のMicroPythonで動作します。
+
+本アプリを稼働させる上で以下のドライバが必要です。URLを併記しますので取得して本アプリと同じディレクトリに置いてください。
+
+1. sdcard.py<br>https://github.com/micropython/micropython/tree/master/drivers/sdcard
+1. ST7735.py<br>https://github.com/boochow/MicroPython-ST7735
+1. terminalfont.py<br>https://github.com/GuyCarver/MicroPython/tree/master/lib
+
+All files are subject to MIT license.
