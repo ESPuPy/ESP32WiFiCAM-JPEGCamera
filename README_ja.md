@@ -24,4 +24,6 @@ ESP32WiFiCAMはESP32上のMicroPythonで動作します。
 1. ST7735.py<br>https://github.com/boochow/MicroPython-ST7735
 1. terminalfont.py<br>https://github.com/GuyCarver/MicroPython/tree/master/lib
 
-All files are subject to MIT license.
+本システムの概要説明は、[Interface 2020 4月号](https://interface.cqpub.co.jp/magazine/202004/) pp.70-79にも記載しています。併せてご参照ください。
+
+すべてのファイル、ソースはMITライセンスに従っています。 All files are subject to MIT license.
