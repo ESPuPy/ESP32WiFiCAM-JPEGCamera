@@ -11,7 +11,7 @@ ESP32 WiFi Camera は以下の機能があります。
 
 本カメラは以下のパーツで構成されています。
 
-|parts type|parts name|
+|デバイス種別|デバイス名|
 ----|----
 |MicroController|ESP32|
 |Camera Unit|Grove Serial Camera Kit|
