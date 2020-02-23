@@ -1,5 +1,6 @@
 # ESP32WiFiCAM-JPEGCamera
 figure <br><img src="fig/fig1.jpg" width=200>
+
 ESP32 WiFi Camera application has the following functions.
 
 1. take pictures in VGA size and JPEG format
