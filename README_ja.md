@@ -9,7 +9,7 @@ ESP32 WiFi Camera は以下の機能があります。
 1. 撮影した画像データをクラウドアルバムサービス（Cloudinary Album Service）にアップロード
 1. 撮影したことをLINE BOT APIを用いて通知、画像参照URLと共に送付することで、LINEアプリで画像確認可能
 
-本カメラでは以下のパーツを使っています。
+本カメラは以下のパーツで構成されています。
 
 |parts type|parts name|
 ----|----
@@ -20,7 +20,7 @@ ESP32 WiFi Camera は以下の機能があります。
 
 ESP32WiFiCAMはESP32上のMicroPythonで動作します。
 
-本アプリを稼働させる上で以下のドライバが必要です。URLを併記しますので取得して本アプリと同じディレクトリに置いてください。
+本アプリを稼働させるには以下のドライバが必要です。URLを併記しますので取得して本アプリと同じディレクトリに置いてください。
 
 1. sdcard.py<br>https://github.com/micropython/micropython/tree/master/drivers/sdcard
 1. ST7735.py<br>https://github.com/boochow/MicroPython-ST7735
